@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 // Set your verify token in Render's Environment as WHATSAPP_VERIFY_TOKEN
-const VERIFY_TOKEN = process.env.WHATSAPP_VERIFY_TOKEN || "changeme";
+const VERIFY_TOKEN = process.env.WHATSAPP_VERIFY_TOKEN || "apitest";
 
 app.use(express.json());
 
